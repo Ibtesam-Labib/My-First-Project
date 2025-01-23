@@ -8,7 +8,6 @@ typedef struct
     int isBooked;
 } Seat;
 Seat bus[MAX_SEATS];
-// Function to initialize the bus seats
 //Tanjimul Hassan
 void initializeBus() 
 {
