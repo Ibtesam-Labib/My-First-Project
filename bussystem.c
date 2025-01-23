@@ -101,7 +101,6 @@ void cancelTicket()
     bus[seatNumber - 1].isBooked = 0;
     strcpy(bus[seatNumber - 1].passengerName, "");
     printf("Ticket for seat %d canceled\n", seatNumber);
-    // Save the updated seat information to the file
     saveBus();
 }
 //Labib(part-2)
